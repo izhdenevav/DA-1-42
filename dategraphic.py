@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# класс для сохранения графика периода дат
 class DateGraphic:
     def __init__(self, date, freq, period, filename):
         self.date = date
